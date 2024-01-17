@@ -1,0 +1,41 @@
+.container {
+  width: 50%;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: auto;
+  padding: 2%;
+}
+
+th {
+  background-color: rgb(88, 86, 86);
+  color: white;
+}
+
+th, td {
+  padding: 1%;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+input {
+  padding: 1%;
+  margin: 1%;
+  color: gray;
+  text-align: center;
+  width: 90%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  cursor: pointer;
+}
+
+.plus {
+  background-color: green;
+  color: white;
+  padding: 2%;
+  padding-right: 3%;
+  border-radius: 50%;
+}
